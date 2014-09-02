@@ -1,0 +1,31 @@
+/**
+Document   : style-skin-blue
+Created on : Feb 28, 2013, 9:17:44 AM
+Author     : John
+Description: CSS for the blue skin
+*/
+
+div.wl_login_skin_blue .wl_login_input_submit,
+span.wl-login-shortcode-skin_blue a {
+	background: #6c9bd8;
+	background: -moz-linear-gradient(top,  #6c9bd8 0%, #387edc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6c9bd8), color-stop(100%,#387edc));
+	background: -webkit-linear-gradient(top,  #6c9bd8 0%,#387edc 100%);
+	background: -o-linear-gradient(top,  #6c9bd8 0%,#387edc 100%);
+	background: -ms-linear-gradient(top,  #6c9bd8 0%,#387edc 100%);
+	background: linear-gradient(to bottom,  #6c9bd8 0%,#387edc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c9bd8', endColorstr='#387edc',GradientType=0 );
+	border: 1px solid #0461DB;
+}
+
+div.wl_login_skin_blue .wl_login_input_submit:hover,
+span.wl-login-shortcode-skin_blue a:hover {
+	background: #3f8ef4;
+	background: -moz-linear-gradient(top,  #3f8ef4 0%, #387edc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f8ef4), color-stop(100%,#387edc));
+	background: -webkit-linear-gradient(top,  #3f8ef4 0%,#387edc 100%);
+	background: -o-linear-gradient(top,  #3f8ef4 0%,#387edc 100%);
+	background: -ms-linear-gradient(top,  #3f8ef4 0%,#387edc 100%);
+	background: linear-gradient(to bottom,  #3f8ef4 0%,#387edc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f8ef4', endColorstr='#387edc',GradientType=0 );
+}

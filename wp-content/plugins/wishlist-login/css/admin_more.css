@@ -1,0 +1,162 @@
+.wllogin2-content {
+	width: 50%;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	overflow: hidden;
+	clear: both;
+}
+
+p.wl_setting_description {
+	width: 50%;
+	padding-left: 40px;
+	margin-bottom: 25px;
+}
+
+p.wl_setting_title {
+	padding-left: 40px;
+	font-weight: bold;
+}
+
+ul.socials {
+	display: block;
+	width: 50%;
+}
+
+ul.socials li {
+	margin-bottom: 15px;
+}
+
+ul.socials li p {
+	width: 16px;
+	float: left;
+	margin: 0;
+	margin-left: 5px;
+}
+
+ul.socials li p.social-title-container {
+	width: 70%;
+}
+
+ul.socials li div {
+	display: inline;
+	float: left;
+	margin-left: 5px;
+}
+
+ul.socials li p.social-status-icon {
+	display: block;
+	height: 16px;
+	width: 16px;
+	background-size: 8px;
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+}
+
+ul.socials li p.social-status-icon-disabled {
+	background-image: url('../images/social-settings-button-disabled.png');
+}
+
+ul.socials li p.social-status-icon-configured {
+	background-image: url('../images/social-settings-button-red.png');
+}
+
+ul.socials li p.social-status-icon-enabled {
+	background-image: url('../images/social-settings-button-green.png');
+}
+
+ul.socials li p.social-tutorial-link-container a {
+	display: block;
+	height: 16px;
+	width: 16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	background-image: url('../images/social-settings-video.png');
+}
+
+ul.socials li p.social-settings-link-container a {
+	display: block;
+	height: 16px;
+	width: 16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	background-image: url('../images/social-settings-settings.png');
+}
+
+ul.socials li p.social-tutorial-link-container a span,
+ul.socials li p.social-settings-link-container a span {
+	display: none;
+}
+
+ul.socials li div.flowplayer {
+	width: 360px;
+	height: 640px;
+}
+
+.single {
+	line-height: 0px !important;
+}
+
+ul.socials li .social-settings {
+	display: none;
+}
+
+ul.socials li .flowplayer { display: none;}
+
+ul.socials li .social-settings-trigger {
+
+}
+
+#TB_window table {
+	margin-top: 2em;
+}
+
+input.wl_login_radio_layout {
+	display: none;
+}
+
+input.wl_login_radio_layout + label {
+	display:inline-block;
+	margin-right: 25px;
+	padding: 5px;
+	border: 5px solid #fff;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+input.wl_login_radio_layout + label span {
+	display:none;
+}
+
+input.wl_login_radio_layout:checked + label {
+	border: 5px solid #1E8CBE;
+}
+
+input.wl_login_radio_skin {
+	display: none;
+}
+
+input.wl_login_radio_skin + label {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background-color: #000;
+	border: 3px solid #ccc;
+	padding: 3px;
+	position: relative;
+	top: 2px;
+	margin: 0 15px 15px 0;
+}
+
+input.wl_login_radio_skin:checked + label {
+	border: 3px solid #1E8CBE;
+}
+
+input.wl_login_radio_skin + label span {
+	display: none;
+}
+
+ul.wl_login_needs_style {
+	margin: 15px 50px;
+	list-style-type: disc;
+}

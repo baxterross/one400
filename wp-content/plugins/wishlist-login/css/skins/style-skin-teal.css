@@ -1,0 +1,31 @@
+/**
+Document   : style-skin-teal
+Created on : Feb 28, 2013, 9:17:44 AM
+Author     : John
+Description: CSS for the teal skin
+*/
+
+div.wl_login_skin_teal .wl_login_input_submit,
+span.wl-login-shortcode-skin_teal a {
+	background: #30b7c9;
+	background: -moz-linear-gradient(top,  #30b7c9 0%, #00b2cb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#30b7c9), color-stop(100%,#00b2cb));
+	background: -webkit-linear-gradient(top,  #30b7c9 0%,#00b2cb 100%);
+	background: -o-linear-gradient(top,  #30b7c9 0%,#00b2cb 100%);
+	background: -ms-linear-gradient(top,  #30b7c9 0%,#00b2cb 100%);
+	background: linear-gradient(to bottom,  #30b7c9 0%,#00b2cb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30b7c9', endColorstr='#00b2cb',GradientType=0 );
+	border: 1px solid #009BAF;
+}
+
+div.wl_login_skin_teal .wl_login_input_submit:hover,
+span.wl-login-shortcode-skin_teal a:hover {
+	background: #35cce0;
+	background: -moz-linear-gradient(top,  #35cce0 0%, #30b7c9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#35cce0), color-stop(100%,#30b7c9));
+	background: -webkit-linear-gradient(top,  #35cce0 0%,#30b7c9 100%);
+	background: -o-linear-gradient(top,  #35cce0 0%,#30b7c9 100%);
+	background: -ms-linear-gradient(top,  #35cce0 0%,#30b7c9 100%);
+	background: linear-gradient(to bottom,  #35cce0 0%,#30b7c9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35cce0', endColorstr='#30b7c9',GradientType=0 );
+}

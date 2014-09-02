@@ -1,0 +1,32 @@
+/**
+Document   : style-skin-light_green
+Created on : Feb 28, 2013, 9:17:44 AM
+Author     : John
+Description: CSS for the light green skin
+*/
+
+div.wl_login_skin_light_green .wl_login_input_submit,
+span.wl-login-shortcode-skin_light_green a {
+	background: #acef0e;
+	background: -moz-linear-gradient(top,  #acef0e 0%, #9ad80b 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#acef0e), color-stop(100%,#9ad80b));
+	background: -webkit-linear-gradient(top,  #acef0e 0%,#9ad80b 100%);
+	background: -o-linear-gradient(top,  #acef0e 0%,#9ad80b 100%);
+	background: -ms-linear-gradient(top,  #acef0e 0%,#9ad80b 100%);
+	background: linear-gradient(to bottom,  #acef0e 0%,#9ad80b 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#acef0e', endColorstr='#9ad80b',GradientType=0 );
+	border: 1px solid #88BA0B;
+	color: #262626;
+}
+
+div.wl_login_skin_light_green .wl_login_input_submit:hover,
+span.wl-login-shortcode-skin_light_green:hover a {
+	background: #bbff0f;
+	background: -moz-linear-gradient(top,  #bbff0f 0%, #acef0e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bbff0f), color-stop(100%,#acef0e));
+	background: -webkit-linear-gradient(top,  #bbff0f 0%,#acef0e 100%);
+	background: -o-linear-gradient(top,  #bbff0f 0%,#acef0e 100%);
+	background: -ms-linear-gradient(top,  #bbff0f 0%,#acef0e 100%);
+	background: linear-gradient(to bottom,  #bbff0f 0%,#acef0e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbff0f', endColorstr='#acef0e',GradientType=0 );
+}

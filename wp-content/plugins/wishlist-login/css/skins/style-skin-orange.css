@@ -1,0 +1,31 @@
+/**
+Document   : style-skin-orange
+Created on : Feb 28, 2013, 9:17:44 AM
+Author     : John
+Description: CSS for the orange skin
+*/
+
+div.wl_login_skin_orange .wl_login_input_submit,
+span.wl-login-shortcode-skin_orange a {
+	background: #f9a302;
+	background: -moz-linear-gradient(top,  #f9a302 0%, #fc7f01 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9a302), color-stop(100%,#fc7f01));
+	background: -webkit-linear-gradient(top,  #f9a302 0%,#fc7f01 100%);
+	background: -o-linear-gradient(top,  #f9a302 0%,#fc7f01 100%);
+	background: -ms-linear-gradient(top,  #f9a302 0%,#fc7f01 100%);
+	background: linear-gradient(to bottom,  #f9a302 0%,#fc7f01 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9a302', endColorstr='#fc7f01',GradientType=0 );
+	border: 1px solid #E07102;
+}
+
+div.wl_login_skin_orange .wl_login_input_submit:hover,
+span.wl-login-shortcode-skin_orange a:hover {
+	background: #f7b602;
+	background: -moz-linear-gradient(top,  #f7b602 0%, #f9a302 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7b602), color-stop(100%,#f9a302));
+	background: -webkit-linear-gradient(top,  #f7b602 0%,#f9a302 100%);
+	background: -o-linear-gradient(top,  #f7b602 0%,#f9a302 100%);
+	background: -ms-linear-gradient(top,  #f7b602 0%,#f9a302 100%);
+	background: linear-gradient(to bottom,  #f7b602 0%,#f9a302 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7b602', endColorstr='#f9a302',GradientType=0 );
+}

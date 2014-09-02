@@ -1,0 +1,31 @@
+/**
+Document   : style-skin-red
+Created on : Feb 28, 2013, 9:17:44 AM
+Author     : John
+Description: CSS for the red skin
+*/
+
+div.wl_login_skin_red .wl_login_input_submit,
+span.wl-login-shortcode-skin_red a {
+	background: #e00000;
+	background: -moz-linear-gradient(top,  #e00000 0%, #c90000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e00000), color-stop(100%,#c90000));
+	background: -webkit-linear-gradient(top,  #e00000 0%,#c90000 100%);
+	background: -o-linear-gradient(top,  #e00000 0%,#c90000 100%);
+	background: -ms-linear-gradient(top,  #e00000 0%,#c90000 100%);
+	background: linear-gradient(to bottom,  #e00000 0%,#c90000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e00000', endColorstr='#c90000',GradientType=0 );
+	border: 1px solid #AD0000;
+}
+
+div.wl_login_skin_red .wl_login_input_submit:hover,
+span.wl-login-shortcode-skin_red a:hover {
+	background: #f70000;
+	background: -moz-linear-gradient(top,  #f70000 0%, #e00000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f70000), color-stop(100%,#e00000));
+	background: -webkit-linear-gradient(top,  #f70000 0%,#e00000 100%);
+	background: -o-linear-gradient(top,  #f70000 0%,#e00000 100%);
+	background: -ms-linear-gradient(top,  #f70000 0%,#e00000 100%);
+	background: linear-gradient(to bottom,  #f70000 0%,#e00000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f70000', endColorstr='#e00000',GradientType=0 );
+}

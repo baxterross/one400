@@ -1,0 +1,32 @@
+/**
+Document   : style-skin-yellow
+Created on : Feb 28, 2013, 9:17:44 AM
+Author     : John
+Description: CSS for the yellow skin
+*/
+
+div.wl_login_skin_yellow .wl_login_input_submit,
+span.wl-login-shortcode-skin_yellow a {
+	background: #fffa00;
+	background: -moz-linear-gradient(top,  #fffa00 0%, #efec00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffa00), color-stop(100%,#efec00));
+	background: -webkit-linear-gradient(top,  #fffa00 0%,#efec00 100%);
+	background: -o-linear-gradient(top,  #fffa00 0%,#efec00 100%);
+	background: -ms-linear-gradient(top,  #fffa00 0%,#efec00 100%);
+	background: linear-gradient(to bottom,  #fffa00 0%,#efec00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffa00', endColorstr='#efec00',GradientType=0 );
+	border: 1px solid #D3D000;
+	color: #262626;
+}
+
+div.wl_login_skin_yellow .wl_login_input_submit:hover,
+span.wl-login-shortcode-skin_yellow a:hover {
+	background: #fffa00;
+	background: -moz-linear-gradient(top,  #fffa00 0%, #fffa00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffa00), color-stop(100%,#fffa00));
+	background: -webkit-linear-gradient(top,  #fffa00 0%,#fffa00 100%);
+	background: -o-linear-gradient(top,  #fffa00 0%,#fffa00 100%);
+	background: -ms-linear-gradient(top,  #fffa00 0%,#fffa00 100%);
+	background: linear-gradient(to bottom,  #fffa00 0%,#fffa00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffa00', endColorstr='#fffa00',GradientType=0 );
+}

@@ -1,0 +1,121 @@
+/**
+Document   : style-layout-horizontal
+Created on : Feb 27, 2013, 2:54:24 PM
+Author     : John
+Description: CSS for the horizontal layout.
+*/
+
+.wl_login_form_embed_horizontal {
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 35px;
+}
+
+.wl_login_horizontal_form .wl_login_horizontal_form_container {
+	position: relative;
+	overflow: hidden;
+}
+
+.wl_login_horizontal_form .wl_login_horizontal_inputs {
+	margin-right: 91px;
+}
+
+.wl_login_horizontal_form .wl_login_horizontal_submit {
+	width: 91px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.wl_login_horizontal_form .wl_login_horizontal_form_input_container {
+	display: block;
+	width: 50%;
+	padding-right: 15px;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.wl_login_horizontal_form input.wl_login_input_text {
+	width: 100%;
+	margin-top: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.wl_login_horizontal_form .wl_login_horizontal_footer {
+	overflow: hidden;
+}
+
+.wl_login_horizontal_form .wl_login_social_links_container {
+	width: 50%;
+	float: right;
+}
+
+.wl_login_horizontal_form .wl_login_horizontal_reset_pass {
+	margin-top: 12px;
+	width: 50%;
+	float: left;
+}
+
+.wl_login_horizontal_form .wl_login_horizontal_reset_pass p {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+.wl_login_horizontal_form ul.wl_login_social_links {
+	margin: 5px 0 0 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+	float: right;
+}
+
+.wl_login_horizontal_form ul.wl_login_social_links li {
+	display: inline;
+}
+
+.wl_login_horizontal_form ul.wl_login_social_links li a {
+	display: block;
+	float: left;
+	margin-left: 5px;
+}
+
+.wl_login_horizontal_form ul.wl_login_social_links li#wl_login_social_link_twitter a {
+	background: url('../../images/twitter-widget.png') no-repeat;
+	background-size: 24px 24px;
+	width: 24px;
+	height: 24px;
+}
+
+.wl_login_horizontal_form ul.wl_login_social_links li#wl_login_social_link_facebook a {
+	background: url('../../images/facebook-widget.png') no-repeat;
+	background-size: 24px 24px;
+	width: 24px;
+	height: 24px;
+}
+
+.wl_login_horizontal_form ul.wl_login_social_links li#wl_login_social_link_google a {
+	background: url('../../images/googleplus-widget.png') no-repeat;
+	background-size: 24px 24px;
+	width: 24px;
+	height: 24px;
+}
+
+.wl_login_horizontal_form ul.wl_login_social_links li#wl_login_social_link_linkedin a {
+	background: url('../../images/linkedin-widget.png') no-repeat;
+	background-size: 24px 24px;
+	width: 24px;
+	height: 24px;
+}
+
+.wl_login_horizontal_form ul.wl_login_social_links li#wl_login_social_link_twitter a span,
+.wl_login_horizontal_form ul.wl_login_social_links li#wl_login_social_link_facebook a span,
+.wl_login_horizontal_form ul.wl_login_social_links li#wl_login_social_link_google a span,
+.wl_login_horizontal_form ul.wl_login_social_links li#wl_login_social_link_linkedin a span {
+	display: none;
+}

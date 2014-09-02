@@ -1,0 +1,31 @@
+/**
+Document   : style-skin-pink
+Created on : Feb 28, 2013, 9:17:44 AM
+Author     : John
+Description: CSS for the pink skin
+*/
+
+div.wl_login_skin_pink .wl_login_input_submit,
+span.wl-login-shortcode-skin_pink a {
+	background: #f213ee;
+	background: -moz-linear-gradient(top,  #f213ee 0%, #d910d8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f213ee), color-stop(100%,#d910d8));
+	background: -webkit-linear-gradient(top,  #f213ee 0%,#d910d8 100%);
+	background: -o-linear-gradient(top,  #f213ee 0%,#d910d8 100%);
+	background: -ms-linear-gradient(top,  #f213ee 0%,#d910d8 100%);
+	background: linear-gradient(to bottom,  #f213ee 0%,#d910d8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f213ee', endColorstr='#d910d8',GradientType=0 );
+	border: 1px solid #BF0FBC;
+}
+
+div.wl_login_skin_pink .wl_login_input_submit:hover,
+span.wl-login-shortcode-skin_pink a:hover {
+	background: #ff14f7;
+	background: -moz-linear-gradient(top,  #ff14f7 0%, #f213ee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff14f7), color-stop(100%,#f213ee));
+	background: -webkit-linear-gradient(top,  #ff14f7 0%,#f213ee 100%);
+	background: -o-linear-gradient(top,  #ff14f7 0%,#f213ee 100%);
+	background: -ms-linear-gradient(top,  #ff14f7 0%,#f213ee 100%);
+	background: linear-gradient(to bottom,  #ff14f7 0%,#f213ee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff14f7', endColorstr='#f213ee',GradientType=0 );
+}

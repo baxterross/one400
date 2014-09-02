@@ -1,0 +1,17 @@
+/**
+Document   : style-skin-wishlist_green
+Created on : Feb 28, 2013, 9:17:44 AM
+Author     : John
+Description: CSS for the wishlist_green skin
+*/
+
+div.wl_login_skin_wishlist_green .wl_login_input_submit,
+span.wl-login-shortcode-skin_wishlist_green a {
+	background: #99CC00;
+	border: 1px solid #0461DB;
+}
+
+div.wl_login_skin_wishlist_green .wl_login_input_submit:hover,
+span.wl-login-shortcode-skin_wishlist_green a:hover {
+	background: #99CC00;
+}

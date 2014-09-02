@@ -1,0 +1,31 @@
+/**
+Document   : style-skin-green
+Created on : Feb 28, 2013, 9:17:44 AM
+Author     : John
+Description: CSS for the green skin
+*/
+
+div.wl_login_skin_green .wl_login_input_submit,
+span.wl-login-shortcode-skin_green a {
+	background: #1faa00;
+	background: -moz-linear-gradient(top,  #1faa00 0%, #199200 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1faa00), color-stop(100%,#199200));
+	background: -webkit-linear-gradient(top,  #1faa00 0%,#199200 100%);
+	background: -o-linear-gradient(top,  #1faa00 0%,#199200 100%);
+	background: -ms-linear-gradient(top,  #1faa00 0%,#199200 100%);
+	background: linear-gradient(to bottom,  #1faa00 0%,#199200 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1faa00', endColorstr='#199200',GradientType=0 );
+	border: 1px solid #157700;
+}
+
+div.wl_login_skin_green .wl_login_input_submit:hover,
+span.wl-login-shortcode-skin_green:hover a {
+	background: #23c100;
+	background: -moz-linear-gradient(top,  #23c100 0%, #1faa00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#23c100), color-stop(100%,#1faa00));
+	background: -webkit-linear-gradient(top,  #23c100 0%,#1faa00 100%);
+	background: -o-linear-gradient(top,  #23c100 0%,#1faa00 100%);
+	background: -ms-linear-gradient(top,  #23c100 0%,#1faa00 100%);
+	background: linear-gradient(to bottom,  #23c100 0%,#1faa00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23c100', endColorstr='#1faa00',GradientType=0 );
+}

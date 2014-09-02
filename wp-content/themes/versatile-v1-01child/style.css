@@ -1,0 +1,23 @@
+/*
+ Theme Name: Versatile Child
+ Theme URI: Theme URI: http://themes.goodlayers2.com/versatile
+ Description: Versatile Child Theme
+ Author: Goodlayers
+ Author URI: http://www.goodlayers.com
+ Template: versatile-v1-01
+ Version: 1.01
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain: gdlr_translate
+*/
+
+ 
+@import url("../versatile-v1-01/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+.icon-social {margin-right:10px;color:#1fb4da;font-size:16px;}
+.three-fifth {margin:auto;float:none;}
+.personnel-item {padding:20px 40px;-moz-box-sizing:border-box;box-sizing:border-box;}
+.personnel-author-image {text-align:center;}
+.personnel-author-image img {width:150px; height:150px; border-radius:150px;}

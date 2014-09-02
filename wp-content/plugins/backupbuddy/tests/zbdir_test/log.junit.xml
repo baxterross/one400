@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="zbdir Test Suite" tests="150" assertions="885" failures="0" errors="0" time="0.162640">
+    <testsuite name="zbdirTest" file="/Users/ambiguous/Documents/485Ambiguous/Assets/485Ambiguous/Code/PHP/zbdir/codebase/test/zbdirTest.php" tests="20" assertions="39" failures="0" errors="0" time="0.053140">
+      <testsuite name="zbdirTest::testCreateZbdir" tests="1" assertions="1" failures="0" errors="0" time="0.003354">
+        <testcase name="testCreateZbdir with data set #0" assertions="1" time="0.003354"/>
+      </testsuite>
+      <testsuite name="zbdirTest::testBasic_001" tests="4" assertions="8" failures="0" errors="0" time="0.006625">
+        <testcase name="testBasic_001 with data set #0" assertions="2" time="0.002398"/>
+        <testcase name="testBasic_001 with data set #1" assertions="2" time="0.001559"/>
+        <testcase name="testBasic_001 with data set #2" assertions="2" time="0.001758"/>
+        <testcase name="testBasic_001 with data set #3" assertions="2" time="0.000910"/>
+      </testsuite>
+      <testsuite name="zbdirTest::testBasic_002" tests="4" assertions="8" failures="0" errors="0" time="0.006467">
+        <testcase name="testBasic_002 with data set #0" assertions="2" time="0.001864"/>
+        <testcase name="testBasic_002 with data set #1" assertions="2" time="0.001776"/>
+        <testcase name="testBasic_002 with data set #2" assertions="2" time="0.001430"/>
+        <testcase name="testBasic_002 with data set #3" assertions="2" time="0.001397"/>
+      </testsuite>
+      <testsuite name="zbdirTest::testBasic_003" tests="5" assertions="10" failures="0" errors="0" time="0.007342">
+        <testcase name="testBasic_003 with data set #0" assertions="2" time="0.001482"/>
+        <testcase name="testBasic_003 with data set #1" assertions="2" time="0.001502"/>
+        <testcase name="testBasic_003 with data set #2" assertions="2" time="0.001213"/>
+        <testcase name="testBasic_003 with data set #3" assertions="2" time="0.001311"/>
+        <testcase name="testBasic_003 with data set #4" assertions="2" time="0.001834"/>
+      </testsuite>
+      <testsuite name="zbdirTest::testBasic_004" tests="1" assertions="2" failures="0" errors="0" time="0.006241">
+        <testcase name="testBasic_004 with data set #0" assertions="2" time="0.006241"/>
+      </testsuite>
+      <testsuite name="zbdirTest::testBasic_005" tests="1" assertions="2" failures="0" errors="0" time="0.004540">
+        <testcase name="testBasic_005 with data set #0" assertions="2" time="0.004540"/>
+      </testsuite>
+      <testsuite name="zbdirTest::testBasic_006" tests="2" assertions="4" failures="0" errors="0" time="0.009449">
+        <testcase name="testBasic_006 with data set #0" assertions="2" time="0.004717"/>
+        <testcase name="testBasic_006 with data set #1" assertions="2" time="0.004732"/>
+      </testsuite>
+      <testsuite name="zbdirTest::testBasic_007" tests="2" assertions="4" failures="0" errors="0" time="0.009121">
+        <testcase name="testBasic_007 with data set #0" assertions="2" time="0.004588"/>
+        <testcase name="testBasic_007 with data set #1" assertions="2" time="0.004533"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="zbdirXclusionTest" file="/Users/ambiguous/Documents/485Ambiguous/Assets/485Ambiguous/Code/PHP/zbdir/codebase/test/zbdirXclusionTest.php" tests="130" assertions="846" failures="0" errors="0" time="0.109500">
+      <testsuite name="zbdirXclusionTest::testCreateXclusionHandler" tests="2" assertions="2" failures="0" errors="0" time="0.000881">
+        <testcase name="testCreateXclusionHandler with data set #0" assertions="1" time="0.000464"/>
+        <testcase name="testCreateXclusionHandler with data set #1" assertions="1" time="0.000417"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testEmptyXclusionsOnCreation" tests="2" assertions="6" failures="0" errors="0" time="0.001117">
+        <testcase name="testEmptyXclusionsOnCreation with data set #0" assertions="3" time="0.000667"/>
+        <testcase name="testEmptyXclusionsOnCreation with data set #1" assertions="3" time="0.000450"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testSingleDirXclusionsOnCreation" tests="2" assertions="18" failures="0" errors="0" time="0.001882">
+        <testcase name="testSingleDirXclusionsOnCreation with data set #0" assertions="9" time="0.001249"/>
+        <testcase name="testSingleDirXclusionsOnCreation with data set #1" assertions="9" time="0.000633"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testSinglePossibleDirXclusionsOnCreation" tests="2" assertions="18" failures="0" errors="0" time="0.001322">
+        <testcase name="testSinglePossibleDirXclusionsOnCreation with data set #0" assertions="9" time="0.000662"/>
+        <testcase name="testSinglePossibleDirXclusionsOnCreation with data set #1" assertions="9" time="0.000660"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testDoubleDirXclusionsOnCreation" tests="2" assertions="20" failures="0" errors="0" time="0.004186">
+        <testcase name="testDoubleDirXclusionsOnCreation with data set #0" assertions="10" time="0.003209"/>
+        <testcase name="testDoubleDirXclusionsOnCreation with data set #1" assertions="10" time="0.000977"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testSingleFileXclusionsOnCreation" tests="2" assertions="18" failures="0" errors="0" time="0.001244">
+        <testcase name="testSingleFileXclusionsOnCreation with data set #0" assertions="9" time="0.000634"/>
+        <testcase name="testSingleFileXclusionsOnCreation with data set #1" assertions="9" time="0.000610"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testSinglePossibleFileXclusionsOnCreation" tests="2" assertions="18" failures="0" errors="0" time="0.001243">
+        <testcase name="testSinglePossibleFileXclusionsOnCreation with data set #0" assertions="9" time="0.000629"/>
+        <testcase name="testSinglePossibleFileXclusionsOnCreation with data set #1" assertions="9" time="0.000614"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testDoubleFileXclusionsOnCreation" tests="2" assertions="18" failures="0" errors="0" time="0.001271">
+        <testcase name="testDoubleFileXclusionsOnCreation with data set #0" assertions="9" time="0.000640"/>
+        <testcase name="testDoubleFileXclusionsOnCreation with data set #1" assertions="9" time="0.000631"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testMultipleMixedXclusionsOnCreation" tests="2" assertions="24" failures="0" errors="0" time="0.001488">
+        <testcase name="testMultipleMixedXclusionsOnCreation with data set #0" assertions="12" time="0.000757"/>
+        <testcase name="testMultipleMixedXclusionsOnCreation with data set #1" assertions="12" time="0.000731"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testMultiplePossibleMixedXclusionsOnCreation" tests="2" assertions="24" failures="0" errors="0" time="0.001694">
+        <testcase name="testMultiplePossibleMixedXclusionsOnCreation with data set #0" assertions="12" time="0.000872"/>
+        <testcase name="testMultiplePossibleMixedXclusionsOnCreation with data set #1" assertions="12" time="0.000822"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testMultipleMixedNonUniqueXclusionsOnCreation" tests="2" assertions="24" failures="0" errors="0" time="0.001569">
+        <testcase name="testMultipleMixedNonUniqueXclusionsOnCreation with data set #0" assertions="12" time="0.000800"/>
+        <testcase name="testMultipleMixedNonUniqueXclusionsOnCreation with data set #1" assertions="12" time="0.000769"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testEmptyXclusionsAdd" tests="6" assertions="36" failures="0" errors="0" time="0.002915">
+        <testcase name="testEmptyXclusionsAdd with data set #0" assertions="6" time="0.000509"/>
+        <testcase name="testEmptyXclusionsAdd with data set #1" assertions="6" time="0.000485"/>
+        <testcase name="testEmptyXclusionsAdd with data set #2" assertions="6" time="0.000483"/>
+        <testcase name="testEmptyXclusionsAdd with data set #3" assertions="6" time="0.000479"/>
+        <testcase name="testEmptyXclusionsAdd with data set #4" assertions="6" time="0.000479"/>
+        <testcase name="testEmptyXclusionsAdd with data set #5" assertions="6" time="0.000480"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testEmptySpecificXclusionsAdd" tests="6" assertions="36" failures="0" errors="0" time="0.002887">
+        <testcase name="testEmptySpecificXclusionsAdd with data set #0" assertions="6" time="0.000488"/>
+        <testcase name="testEmptySpecificXclusionsAdd with data set #1" assertions="6" time="0.000479"/>
+        <testcase name="testEmptySpecificXclusionsAdd with data set #2" assertions="6" time="0.000485"/>
+        <testcase name="testEmptySpecificXclusionsAdd with data set #3" assertions="6" time="0.000481"/>
+        <testcase name="testEmptySpecificXclusionsAdd with data set #4" assertions="6" time="0.000477"/>
+        <testcase name="testEmptySpecificXclusionsAdd with data set #5" assertions="6" time="0.000477"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testSingleXclusionsAdd" tests="6" assertions="74" failures="0" errors="0" time="0.004047">
+        <testcase name="testSingleXclusionsAdd with data set #0" assertions="13" time="0.000706"/>
+        <testcase name="testSingleXclusionsAdd with data set #1" assertions="13" time="0.000686"/>
+        <testcase name="testSingleXclusionsAdd with data set #2" assertions="12" time="0.000663"/>
+        <testcase name="testSingleXclusionsAdd with data set #3" assertions="12" time="0.000677"/>
+        <testcase name="testSingleXclusionsAdd with data set #4" assertions="12" time="0.000662"/>
+        <testcase name="testSingleXclusionsAdd with data set #5" assertions="12" time="0.000653"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testSingleSpecifcXclusionsAdd" tests="6" assertions="74" failures="0" errors="0" time="0.004073">
+        <testcase name="testSingleSpecifcXclusionsAdd with data set #0" assertions="13" time="0.000712"/>
+        <testcase name="testSingleSpecifcXclusionsAdd with data set #1" assertions="13" time="0.000687"/>
+        <testcase name="testSingleSpecifcXclusionsAdd with data set #2" assertions="12" time="0.000651"/>
+        <testcase name="testSingleSpecifcXclusionsAdd with data set #3" assertions="12" time="0.000661"/>
+        <testcase name="testSingleSpecifcXclusionsAdd with data set #4" assertions="12" time="0.000658"/>
+        <testcase name="testSingleSpecifcXclusionsAdd with data set #5" assertions="12" time="0.000704"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testMultipleXclusionsAdd" tests="6" assertions="74" failures="0" errors="0" time="0.004185">
+        <testcase name="testMultipleXclusionsAdd with data set #0" assertions="13" time="0.000768"/>
+        <testcase name="testMultipleXclusionsAdd with data set #1" assertions="13" time="0.000733"/>
+        <testcase name="testMultipleXclusionsAdd with data set #2" assertions="12" time="0.000675"/>
+        <testcase name="testMultipleXclusionsAdd with data set #3" assertions="12" time="0.000669"/>
+        <testcase name="testMultipleXclusionsAdd with data set #4" assertions="12" time="0.000676"/>
+        <testcase name="testMultipleXclusionsAdd with data set #5" assertions="12" time="0.000664"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testMultipleNonUniqueXclusionsAdd" tests="6" assertions="74" failures="0" errors="0" time="0.004255">
+        <testcase name="testMultipleNonUniqueXclusionsAdd with data set #0" assertions="13" time="0.000774"/>
+        <testcase name="testMultipleNonUniqueXclusionsAdd with data set #1" assertions="13" time="0.000752"/>
+        <testcase name="testMultipleNonUniqueXclusionsAdd with data set #2" assertions="12" time="0.000676"/>
+        <testcase name="testMultipleNonUniqueXclusionsAdd with data set #3" assertions="12" time="0.000695"/>
+        <testcase name="testMultipleNonUniqueXclusionsAdd with data set #4" assertions="12" time="0.000678"/>
+        <testcase name="testMultipleNonUniqueXclusionsAdd with data set #5" assertions="12" time="0.000680"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testMatchXclusions" tests="24" assertions="96" failures="0" errors="0" time="0.022615">
+        <testcase name="testMatchXclusions with data set #0" assertions="4" time="0.000979"/>
+        <testcase name="testMatchXclusions with data set #1" assertions="4" time="0.000936"/>
+        <testcase name="testMatchXclusions with data set #2" assertions="4" time="0.000920"/>
+        <testcase name="testMatchXclusions with data set #3" assertions="4" time="0.000945"/>
+        <testcase name="testMatchXclusions with data set #4" assertions="4" time="0.000953"/>
+        <testcase name="testMatchXclusions with data set #5" assertions="4" time="0.000935"/>
+        <testcase name="testMatchXclusions with data set #6" assertions="4" time="0.000929"/>
+        <testcase name="testMatchXclusions with data set #7" assertions="4" time="0.000961"/>
+        <testcase name="testMatchXclusions with data set #8" assertions="4" time="0.000922"/>
+        <testcase name="testMatchXclusions with data set #9" assertions="4" time="0.000922"/>
+        <testcase name="testMatchXclusions with data set #10" assertions="4" time="0.000920"/>
+        <testcase name="testMatchXclusions with data set #11" assertions="4" time="0.000934"/>
+        <testcase name="testMatchXclusions with data set #12" assertions="4" time="0.000965"/>
+        <testcase name="testMatchXclusions with data set #13" assertions="4" time="0.000925"/>
+        <testcase name="testMatchXclusions with data set #14" assertions="4" time="0.000931"/>
+        <testcase name="testMatchXclusions with data set #15" assertions="4" time="0.000941"/>
+        <testcase name="testMatchXclusions with data set #16" assertions="4" time="0.000913"/>
+        <testcase name="testMatchXclusions with data set #17" assertions="4" time="0.000989"/>
+        <testcase name="testMatchXclusions with data set #18" assertions="4" time="0.000927"/>
+        <testcase name="testMatchXclusions with data set #19" assertions="4" time="0.000948"/>
+        <testcase name="testMatchXclusions with data set #20" assertions="4" time="0.000985"/>
+        <testcase name="testMatchXclusions with data set #21" assertions="4" time="0.000946"/>
+        <testcase name="testMatchXclusions with data set #22" assertions="4" time="0.000950"/>
+        <testcase name="testMatchXclusions with data set #23" assertions="4" time="0.000939"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testPrefixOfXclusions" tests="24" assertions="96" failures="0" errors="0" time="0.022952">
+        <testcase name="testPrefixOfXclusions with data set #0" assertions="4" time="0.000946"/>
+        <testcase name="testPrefixOfXclusions with data set #1" assertions="4" time="0.000946"/>
+        <testcase name="testPrefixOfXclusions with data set #2" assertions="4" time="0.000945"/>
+        <testcase name="testPrefixOfXclusions with data set #3" assertions="4" time="0.000936"/>
+        <testcase name="testPrefixOfXclusions with data set #4" assertions="4" time="0.000983"/>
+        <testcase name="testPrefixOfXclusions with data set #5" assertions="4" time="0.000960"/>
+        <testcase name="testPrefixOfXclusions with data set #6" assertions="4" time="0.000967"/>
+        <testcase name="testPrefixOfXclusions with data set #7" assertions="4" time="0.000943"/>
+        <testcase name="testPrefixOfXclusions with data set #8" assertions="4" time="0.000936"/>
+        <testcase name="testPrefixOfXclusions with data set #9" assertions="4" time="0.000932"/>
+        <testcase name="testPrefixOfXclusions with data set #10" assertions="4" time="0.000949"/>
+        <testcase name="testPrefixOfXclusions with data set #11" assertions="4" time="0.000934"/>
+        <testcase name="testPrefixOfXclusions with data set #12" assertions="4" time="0.000999"/>
+        <testcase name="testPrefixOfXclusions with data set #13" assertions="4" time="0.000993"/>
+        <testcase name="testPrefixOfXclusions with data set #14" assertions="4" time="0.001005"/>
+        <testcase name="testPrefixOfXclusions with data set #15" assertions="4" time="0.000934"/>
+        <testcase name="testPrefixOfXclusions with data set #16" assertions="4" time="0.000937"/>
+        <testcase name="testPrefixOfXclusions with data set #17" assertions="4" time="0.000947"/>
+        <testcase name="testPrefixOfXclusions with data set #18" assertions="4" time="0.000950"/>
+        <testcase name="testPrefixOfXclusions with data set #19" assertions="4" time="0.000961"/>
+        <testcase name="testPrefixOfXclusions with data set #20" assertions="4" time="0.000947"/>
+        <testcase name="testPrefixOfXclusions with data set #21" assertions="4" time="0.000949"/>
+        <testcase name="testPrefixOfXclusions with data set #22" assertions="4" time="0.000954"/>
+        <testcase name="testPrefixOfXclusions with data set #23" assertions="4" time="0.000999"/>
+      </testsuite>
+      <testsuite name="zbdirXclusionTest::testPrefixedByXclusions" tests="24" assertions="96" failures="0" errors="0" time="0.023674">
+        <testcase name="testPrefixedByXclusions with data set #0" assertions="4" time="0.001002"/>
+        <testcase name="testPrefixedByXclusions with data set #1" assertions="4" time="0.000980"/>
+        <testcase name="testPrefixedByXclusions with data set #2" assertions="4" time="0.000991"/>
+        <testcase name="testPrefixedByXclusions with data set #3" assertions="4" time="0.000970"/>
+        <testcase name="testPrefixedByXclusions with data set #4" assertions="4" time="0.001005"/>
+        <testcase name="testPrefixedByXclusions with data set #5" assertions="4" time="0.000970"/>
+        <testcase name="testPrefixedByXclusions with data set #6" assertions="4" time="0.000958"/>
+        <testcase name="testPrefixedByXclusions with data set #7" assertions="4" time="0.000930"/>
+        <testcase name="testPrefixedByXclusions with data set #8" assertions="4" time="0.001206"/>
+        <testcase name="testPrefixedByXclusions with data set #9" assertions="4" time="0.000983"/>
+        <testcase name="testPrefixedByXclusions with data set #10" assertions="4" time="0.001035"/>
+        <testcase name="testPrefixedByXclusions with data set #11" assertions="4" time="0.000964"/>
+        <testcase name="testPrefixedByXclusions with data set #12" assertions="4" time="0.000972"/>
+        <testcase name="testPrefixedByXclusions with data set #13" assertions="4" time="0.000979"/>
+        <testcase name="testPrefixedByXclusions with data set #14" assertions="4" time="0.000969"/>
+        <testcase name="testPrefixedByXclusions with data set #15" assertions="4" time="0.000969"/>
+        <testcase name="testPrefixedByXclusions with data set #16" assertions="4" time="0.000969"/>
+        <testcase name="testPrefixedByXclusions with data set #17" assertions="4" time="0.000969"/>
+        <testcase name="testPrefixedByXclusions with data set #18" assertions="4" time="0.000967"/>
+        <testcase name="testPrefixedByXclusions with data set #19" assertions="4" time="0.000995"/>
+        <testcase name="testPrefixedByXclusions with data set #20" assertions="4" time="0.000980"/>
+        <testcase name="testPrefixedByXclusions with data set #21" assertions="4" time="0.000972"/>
+        <testcase name="testPrefixedByXclusions with data set #22" assertions="4" time="0.000973"/>
+        <testcase name="testPrefixedByXclusions with data set #23" assertions="4" time="0.000967"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

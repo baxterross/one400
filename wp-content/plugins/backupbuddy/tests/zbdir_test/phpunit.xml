@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true" bootstrap="./codebase/test/bootstrap.php">
+    <testsuites>
+        <testsuite name="zbdir Test Suite">
+            <directory>./codebase/test/</directory>
+        </testsuite>
+    </testsuites>
+    <listeners>
+    	<listener class="TestListener" file="./codebase/test/testListener.php">
+    	</listener>
+    </listeners>
+</phpunit>
