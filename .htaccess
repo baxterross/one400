@@ -4,6 +4,7 @@
 RewriteEngine On
 RewriteBase /
 RewriteRule ^contact-us-2 /contact-us [L,R=301]
+RewriteRule ^legal-marketing-blog /blog [L,R=301]
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
